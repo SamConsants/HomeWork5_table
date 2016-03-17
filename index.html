@@ -1,65 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Cadastre-se</title>
-	<link rel="stylesheet" href="css/style.css">
+	<title>pit mondrian</title>
+	
+	<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+}
+
+table {
+	/*margin: 0 auto; ?? ???? ????*/
+	border-collapse: collapse; width:500px;
+	height: 540px;	
+}
+
+tbody {
+	border: 1px solid white;
+}
+
+td {
+	border: 10px solid #000;
+}
+
+
+.bordertop {
+	border-top: none;	
+}
+
+.borderbottom {
+	border-bottom: none;
+}
+</style>
+
 </head>
 <body>
-<div class="wrapper">
-	<div class="main_menu">
-		<ul>
-			<li><a href=""><span>Ola! Entra</span> ou <span>Cadastre-se</span></a></li>
-			<li><a href = "#"> <img class= "invent" src="img/inventions.png">Minhas Ofertas</a></li>
-			<li><a href = "#">Ajuda</a></li>
-			<li><a href = "#">Contato</a></li>
-			<li><a href = "#">Forum</a></li>
-			<li><a href = "#">Vender</a></li>
-			<li><a href = "#">Meu YouBike</a></li>
-		</ul>
-	</div>
-	<div class="image">
-		<img src="img/background.jpg" alt="bikers">		
-	</div>
-</div>	
-	<div>
-		
-		<form action="#" method="POST" id="enter">
-			<legend>Cadastre-se</legend>
-				<div class="facebook-box">
-				<a href="#" class="facebook-link">
-                	<i class="fa-facebook fa"></i>
-                	<div class="facebook-button-content"><b>Login In </b>with<b> Facebook</b>&nbsp;&nbsp;&nbsp;&nbsp;<b>&gt;</b>
-                	</div>
-                </a>
-                </div>
-                <div class="line">OU</div>
-            <fieldset class="login">
-            	<div class="field">
-					<input type="text" name="first_name" placeholder ="First Name" class="form-text">
-				</div>
-				<div class="field">
-					<input type="text" name="last_name" placeholder ="Last Name" class="form-text">
-				</div>
-				<div class="field">
-					<input type="email" name="email" placeholder ="Email address" class="form-text">
-				</div>
-				<div class="field">
-					<input type="password" name="password" placeholder ="Choose Password" class="form-text">
-				</div>
-				<div class="field">
-					<input type="password" name="confirm" placeholder ="Password Confirm" class="form-text">
-				</div>
-				<div class="checkbox">
-					<input type="checkbox" name="checkbox" id="checkbox">
-					<label for="checkbox" class="text-checkbox">Send me Youbike updates and tips</label>
-				</div>
-				<div class="submit-box">
-					<input type="submit" value="Create my Account" class="submit">
-				</div>
-					<span class="text-agree">By clicking the button above, you are agree to the Terms of Service Xiew<br> our Privacy Policy</span>
-				
-			</fieldset>
-		</form>
-	</div>
+	<table>
+		<tbody>
+			<tr>
+			    <td colspan="2" bgcolor="#fff" class="bordertop"></br></td>
+			    <td colspan="3" bgcolor="#fff" class="bordertop"></br></td>
+			    <td colspan="2" bgcolor="#fffa69" class="bordertop"></br></td>		    
+		    </tr>
+			<tr>
+			    <td rowspan="2" bgcolor="#fff"></br></td>
+			    <td colspan="4" rowspan="4" bgcolor=" #ff5b2d"></br></td>		    
+			    <td colspan="2" rowspan="2" bgcolor="#fffa69"></br></td>		    
+		    </tr>
+		    <tr> 
+			</tr>
+		    <tr>
+			    <td rowspan="3" bgcolor="#fff"></br></td> 
+			    <td rowspan="2" bgcolor="#fff"></br></td>
+			    <td rowspan="2" bgcolor="#fff"></br></td>
+		    </tr>
+		    <tr>
+		    </tr>
+		    <tr>
+			    <td colspan="2" rowspan="2" bgcolor="#000"></br></td>
+			    <td colspan="2" bgcolor="#fff"></br></td>
+			    <td colspan="2" bgcolor="#fff"></br></td>
+			</tr>
+		    <tr>
+			    <td rowspan="3" bgcolor="#fffa69" class="borderbottom"></br></td>	    
+			    <td colspan="2" bgcolor="#fff"></br></td> 
+			    <td colspan="2" rowspan="2" bgcolor=" #074481"></br></td> 
+		    </tr>
+		    <tr>		    
+			    <td colspan="2" rowspan="2" bgcolor="#fff" class="borderbottom"></br></td> 
+			    <td colspan="2" bgcolor="#000"></br></td>
+		    </tr>
+		    <tr class="borderbottom">
+		    	<td colspan="4" bgcolor="#fff" class="borderbottom"></br></td>
+		    </tr>
+		</tbody>
+	</table>
 </body>
 </html>
